@@ -1,0 +1,51 @@
+property_id,name,market,neighborhood,property_type,unit_count,total_sqft,year_built,age_years,market_value
+P001,Midtown Flats,Atlanta,East Point,commercial,6,11556,1990,35,2057000
+P002,Buckhead Point,Atlanta,East Point,multifamily,128,98048,1976,49,14154000
+P003,Sandy Springs Commons,Atlanta,Sandy Springs,multifamily,70,78120,2016,9,23619000
+P004,Decatur Residences,Atlanta,Buckhead,multifamily,21,23898,1985,40,7206000
+P005,Decatur Residences,Atlanta,East Point,multifamily,106,85012,1980,45,18599000
+P006,Sandy Springs Place,Atlanta,East Point,multifamily,31,34813,2004,21,9031000
+P007,Midtown Place,Atlanta,Buckhead,multifamily,180,191880,1998,27,51829000
+P008,Sandy Springs Flats,Atlanta,Decatur,commercial,10,17530,1981,44,3836000
+P009,Midtown Point,Atlanta,Buckhead,multifamily,110,94270,2017,8,17856000
+P010,East Point Commons,Atlanta,Decatur,multifamily,82,68306,2004,21,14936000
+P011,Sandy Springs Residences,Atlanta,Midtown,commercial,8,13904,1977,48,4579000
+P012,Sandy Springs Park,Atlanta,Sandy Springs,multifamily,165,197670,2020,5,39893000
+P013,Decatur Flats,Atlanta,East Point,multifamily,55,48180,2022,3,12814000
+P014,Buckhead Point,Atlanta,Sandy Springs,multifamily,169,161226,1998,27,28541000
+P015,Buckhead Flats,Atlanta,Sandy Springs,multifamily,32,38080,1982,43,6083000
+P016,East Point Residences,Atlanta,East Point,multifamily,118,111510,2013,12,42261000
+P017,East Point Residences,Atlanta,Decatur,mixed-use,11,17556,2021,4,2630000
+P018,Frisco Point,Dallas,Deep Ellum,multifamily,131,108730,2004,21,13139000
+P019,Oak Cliff Point,Dallas,Deep Ellum,multifamily,47,56165,2015,10,11098000
+P020,Oak Cliff Residences,Dallas,Plano,multifamily,61,62586,2008,17,22456000
+P021,Deep Ellum Point,Dallas,Uptown,multifamily,112,134288,1994,31,24475000
+P022,Oak Cliff Commons,Dallas,Deep Ellum,multifamily,144,168048,1979,46,62896000
+P023,Oak Cliff Park,Dallas,Deep Ellum,commercial,40,59040,1991,34,15185000
+P024,Frisco Park,Dallas,Oak Cliff,mixed-use,35,57050,1994,31,12764000
+P025,Oak Cliff Point,Dallas,Deep Ellum,multifamily,83,71795,1979,46,14926000
+P026,Deep Ellum Place,Dallas,Uptown,multifamily,21,16506,2020,5,4689000
+P027,Plano Commons,Dallas,Oak Cliff,mixed-use,19,27094,1990,35,5213000
+P028,Plano Park,Dallas,Deep Ellum,multifamily,166,173470,2005,20,31776000
+P029,Plano Flats,Dallas,Uptown,multifamily,188,182360,1997,28,41967000
+P030,Uptown Commons,Dallas,Deep Ellum,commercial,11,11528,2000,25,3566000
+P031,Plano Commons,Dallas,Uptown,multifamily,134,110014,2002,23,18450000
+P032,Oak Cliff Place,Dallas,Uptown,multifamily,160,128000,1978,47,37063000
+P033,Deep Ellum Park,Dallas,Uptown,mixed-use,40,42800,2001,24,10540000
+P034,Plano Residences,Dallas,Plano,multifamily,20,18980,1991,34,6850000
+P035,NoDa Place,Charlotte,University City,commercial,40,111720,1984,41,18922000
+P036,Dilworth Point,Charlotte,University City,commercial,8,16672,1978,47,2218000
+P037,South End Flats,Charlotte,NoDa,multifamily,150,118650,1986,39,16352000
+P038,University City Place,Charlotte,Dilworth,multifamily,165,144540,2012,13,39687000
+P039,Ballantyne Commons,Charlotte,Ballantyne,commercial,38,79610,1991,34,13781000
+P040,South End Place,Charlotte,Dilworth,multifamily,191,206280,1994,31,49276000
+P041,Ballantyne Commons,Charlotte,Ballantyne,commercial,11,12100,2009,16,2123000
+P042,University City Flats,Charlotte,Ballantyne,mixed-use,41,52398,1993,32,8437000
+P043,Ballantyne Flats,Charlotte,South End,commercial,38,31616,2017,8,10511000
+P044,University City Commons,Charlotte,Ballantyne,mixed-use,27,31590,1982,43,11098000
+P045,Ballantyne Point,Charlotte,Dilworth,multifamily,73,81541,1996,29,14101000
+P046,Ballantyne Place,Charlotte,South End,multifamily,33,26301,2015,10,6053000
+P047,Dilworth Point,Charlotte,Dilworth,multifamily,53,57028,1991,34,9239000
+P048,University City Place,Charlotte,Ballantyne,multifamily,48,37824,2019,6,13428000
+P049,Ballantyne Place,Charlotte,Ballantyne,multifamily,57,55290,1983,42,7236000
+P050,University City Park,Charlotte,University City,multifamily,83,90553,1981,44,19193000
