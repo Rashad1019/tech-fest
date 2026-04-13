@@ -12,6 +12,9 @@ import os
 import time
 from collections import defaultdict
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()  # loads GEMINI_API_KEY from .env if present
 
 # ─── Config ──────────────────────────────────────────────────────────────────
 

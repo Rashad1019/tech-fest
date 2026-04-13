@@ -14,7 +14,7 @@ No real data — everything is generated from `generate_data.py`.
 | Layer | Tech |
 |-------|------|
 | Data generation | Python (stdlib only) |
-| AI engine | Python + `google-genai` SDK — `gemini-2.0-flash-lite` |
+| AI engine | Python + `google-genai` SDK — `gemini-3.1-flash-lite-preview` |
 | Dashboard | Streamlit + Plotly |
 
 ---
@@ -61,8 +61,21 @@ venv\Scripts\Activate.ps1
 source venv/bin/activate
 
 pip install -r requirements.txt
-pip install streamlit plotly pandas
 ```
+
+### API Key Setup
+
+1. Get a free Gemini API key at [aistudio.google.com](https://aistudio.google.com)
+2. Copy `.env.example` to `.env`:
+   ```bash
+   cp .env.example .env
+   ```
+3. Paste your key into `.env`:
+   ```
+   GEMINI_API_KEY=your_gemini_api_key_here
+   ```
+
+The AI engine loads it automatically via `python-dotenv`. No manual env var export needed.
 
 ---
 
@@ -78,17 +91,11 @@ Outputs all CSVs into `data/`. Data is fully reproducible (`random.seed(42)`).
 
 ### Phase 2 — Run the AI engine
 
-Set your Gemini API key, then run:
-
 ```bash
-# Windows (PowerShell)
-$env:GEMINI_API_KEY="your_key_here"
-
-# macOS / Linux
-export GEMINI_API_KEY="your_key_here"
-
 python ai_engine.py
 ```
+
+Reads `GEMINI_API_KEY` from your `.env` file (model: `gemini-3.1-flash-lite-preview`).
 
 This produces three AI-enriched CSVs:
 - `work_orders_classified.csv` — trade and urgency predicted from free-text descriptions
@@ -121,6 +128,6 @@ Opens at `http://localhost:8501`
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `GEMINI_API_KEY` | Yes (Phase 2 only) | Your Google Gemini API key |
+| `GEMINI_API_KEY` | Yes (Phase 2 only) | Your Google Gemini API key from [aistudio.google.com](https://aistudio.google.com) |
 
-The dashboard (Phase 3) reads pre-generated CSVs and requires no API key.
+Set via `.env` file (see setup above). The dashboard (Phase 3) reads pre-generated CSVs and requires no API key.
